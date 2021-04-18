@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>topWine</title>
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="">
+        </a>
+        <nav class="menu">
+          <button class="menu__btn">
+            <span></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Головна</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Перевірка якості</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Каталог вин</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Акції</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <div class="user-nav__item">
+            <a class="user-nav__link" href="#">
+              Обрані
+            </a>
+            <img class="user-nav__img" src="images/icons/heart-icon.png" alt="heart icon">
+            <span class="user-nav__num">1</span>
+          </div>
+          <div class="user-nav__item">
+            <a class="user-nav__link" href="#">
+              Корзина
+            </a>
+            <img class="user-nav__img" src="images/icons/basket-icon.png" alt="basket icon">
+            <span class="user-nav__num">2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+     <section class="top-image">
+      <div class="container">
+        <div class="top-image__inner">
+          <img class="top-image__img" src="images/top-wine.png" alt="top wine">
+          <div class="top-image__item">
+            <h1 class="top-image__item-title">
+              TopWine - сервіс для перевірки якості вина
+            </h1>
+            <p class="top-image__item-text">
+              TopWine - це перший сервіс, який за спеціальними алгоритмами може оцінити якість вина. Для цього вам
+              потрібно ввести показники з його складу. Також на сервісі також можна обрати та замовити вино.
+            </p>
+            <a class="top-image__item-link" href="#">Перевірити вино</a>
+            <a class="top-image__item-link top-image__item-link--bg-white" href="#">Подивитися каталог</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quality">
+      <div class="container-small">
+        <div class="quality__top">
+          <h2 class="quality__title title">
+            Як перевірити якість вина
+          </h2>
+        </div>
+        <div class="quality__inner">
+          <div class="quality__item">
+            <img class="quality__item-img" src="images/icons/bottle-icon.png" alt="icon">
+            <h3 class="quality__item-title">Розглянути этикетку</h3>
+            <p class="quality__item-text">На этикетці вина вказані
+              усі необхідні для перевірки
+              показники</p>
+            <div class='lines'>
+              <div class="line line-top"></div>
+              <div class="line line-right"></div>
+              <div class="line line-left"></div>
+              <div class="line line-bottom"></div>
+            </div>
+          </div>
+          <div class="quality__item">
+            <img class="quality__item-img" src="images/icons/indicators-icon.png" alt="indicators icon">
+            <h3 class="quality__item-title">Ввести показники</h3>
+            <p class="quality__item-text">За даними зі складу
+              за допомогою спеціальних
+              алгоритмів обчислюється
+              якість вина</p>
+            <div class='lines'>
+              <div class="line line-top"></div>
+              <div class="line line-right"></div>
+              <div class="line line-left"></div>
+              <div class="line line-bottom"></div>
+            </div>
+          </div>
+          <div class="quality__item">
+            <img class="quality__item-img" src="images/icons/star-icon.png" alt="star icon">
+            <h3 class="quality__item-title">Отримати оцінку</h3>
+            <p class="quality__item-text">Оцінка вина може мати
+              від 1 до 10 балів</p>
+            <div class='lines'>
+              <div class="line line-top"></div>
+              <div class="line line-right"></div>
+              <div class="line line-left"></div>
+              <div class="line line-bottom"></div>
+            </div>
+          </div>
+        </div>
+        <a class="quality__btn" href="#">Перевірити вино</a>
+      </div>
+    </section>
+
+   <section class="popular">
+      <div class="container" style="background-image: url('images/grape-bg.png');">
+        <div class="popular__top">
+          <h3 class="popular__title title">Найпопулярніші вина</h3>
+        </div>
+
+        <div class="popular__items owl-carousel owl-theme">
+
+          <div class="popular__item">
+            <a class="popular__item-link" href="#">
+              <h4 class="popular__item-title">Josh Cellars Pinot Noir</h4>
+              <div class="popular__item-box">
+                <p class="popular__item-text">США</p>
+                <p class="popular__item-text">0,75 л</p>
+                <p class="popular__item-text">2015 г </p>
+              </div>
+              <img class="popular__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+              <p class="popular__item-price">780 грн</p>
+            </a>
+          </div>
+
+          <div class="popular__item">
+            <a class="popular__item-link" href="#">
+              <h4 class="popular__item-title">White Knight</h4>
+              <div class="popular__item-box">
+                <p class="popular__item-text">Франція</p>
+                <p class="popular__item-text">0,75 л</p>
+                <p class="popular__item-text">2016 г</p>
+              </div>
+              <img class="popular__item-img" src="images/wines/white-knight.png" alt="White Knight">
+              <p class="popular__item-price">488 грн</p>
+            </a>
+          </div>
+
+          <div class="popular__item">
+            <a class="popular__item-link" href="#">
+              <h4 class="popular__item-title">Syrah 74</h4>
+              <div class="popular__item-box">
+                <p class="popular__item-text">Німеччина</p>
+                <p class="popular__item-text">0,75 л</p>
+                <p class="popular__item-text">2015 г </p>
+              </div>
+              <img class="popular__item-img" src="images/wines/syrah.png" alt="Syrah">
+              <p class="popular__item-price">330 грн</p>
+            </a>
+          </div>
+
+          <div class="popular__item">
+            <a class="popular__item-link" href="#">
+              <h4 class="popular__item-title">Josh Cellars Pinot Noir</h4>
+              <div class="popular__item-box">
+                <p class="popular__item-text">США</p>
+                <p class="popular__item-text">0,75 л</p>
+                <p class="popular__item-text">2015 г </p>
+              </div>
+              <img class="popular__item-img" src="images/wines/josh-Cellars.png" alt="Josh Cellars">
+              <p class="popular__item-price">780 грн</p>
+            </a>
+          </div>
+
+          <div class="popular__item">
+            <a class="popular__item-link" href="#">
+              <h4 class="popular__item-title">White Knight</h4>
+              <div class="popular__item-box">
+                <p class="popular__item-text">Франція</p>
+                <p class="popular__item-text">0,75 л</p>
+                <p class="popular__item-text">2016 г</p>
+              </div>
+              <img class="popular__item-img" src="images/wines/white-knight.png" alt="White Knight">
+              <p class="popular__item-price">488 грн</p>
+            </a>
+          </div>
+
+          <div class="popular__item">
+            <a class="popular__item-link" href="#">
+              <h4 class="popular__item-title">Syrah 74</h4>
+              <div class="popular__item-box">
+                <p class="popular__item-text">Німеччина</p>
+                <p class="popular__item-text">0,75 л</p>
+                <p class="popular__item-text">2015 г </p>
+              </div>
+              <img class="popular__item-img" src="images/wines/syrah.png" alt="Syrah">
+              <p class="popular__item-price">330 грн</p>
+            </a>
+          </div>
+
+        </div>
+        <a class="popular__btn" href="#">Подивитися усі товари</a>
+      </div>
+    </section>
+
+     <section class="reviews">
+      <div class="container">
+        <div class="reviews__top">
+          <h4 class="reviews__top-title title">
+            Відгуки користувачів
+          </h4>
+        </div>
+        <div class="reviews-items">
+
+          <div class="reviews-item">
+            <div class="reviews-item__box">
+              <img class="reviews-item__img" src="images/reviews/julia.png" alt="юлия">
+              <a class="reviews-item__link" href="#">
+                <img class="reviews-item__link-img" src="images/icons/facebook-icon.png" alt="facebook icon">
+              </a>
+            </div>
+            <div class="reviews-item__content">
+              <h4 class="reviews-item__title">Юлия Портнягина</h4>
+              <p class="reviews-item__text">Сервісом перевірки користувалась уже декілька разів, коли купувала вино у
+                супермаркеті. З TopWine робити вибір значно легше!</p>
+              <div class='lines'>
+                <div class="line line-top"></div>
+                <div class="line line-right"></div>
+                <div class="line line-left"></div>
+                <div class="line line-bottom"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reviews-item">
+            <div class="reviews-item__box">
+              <img class="reviews-item__img" src="images/reviews/artem.png" alt="Артем">
+              <a class="reviews-item__link" href="#">
+                <img class="reviews-item__link-img" src="images/icons/facebook-icon.png" alt="facebook icon">
+              </a>
+            </div>
+            <div class="reviews-item__content">
+              <h4 class="reviews-item__title">Артем Филиппов</h4>
+              <p class="reviews-item__text">Я вже постійний покупець TopWine. Рекомендую цей сервіс!</p>
+              <div class='lines'>
+                <div class="line line-top"></div>
+                <div class="line line-right"></div>
+                <div class="line line-left"></div>
+                <div class="line line-bottom"></div>
+              </div>
+            </div>
+
+          </div>
+          <div class="reviews-item">
+            <div class="reviews-item__box">
+              <img class="reviews-item__img" src="images/reviews/vadim.png" alt="Вадим">
+              <a class="reviews-item__link" href="#">
+                <img class="reviews-item__link-img" src="images/icons/facebook-icon.png" alt="facebook icon">
+              </a>
+            </div>
+            <div class="reviews-item__content">
+              <h4 class="reviews-item__title">Вадим Яровой</h4>
+              <p class="reviews-item__text">Замовляв вино з каталогу. Спирався на оцінку якості та відгуки. Результатом
+                покупки задоволений.</p>
+              <div class='lines'>
+                <div class="line line-top"></div>
+                <div class="line line-right"></div>
+                <div class="line line-left"></div>
+                <div class="line line-bottom"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="reviews-item">
+            <div class="reviews-item__box">
+              <img class="reviews-item__img" src="images/reviews/nastya.png" alt="Анастасия">
+              <a class="reviews-item__link" href="#">
+                <img class="reviews-item__link-img" src="images/icons/facebook-icon.png" alt="facebook icon">
+              </a>
+            </div>
+            <div class="reviews-item__content">
+              <h4 class="reviews-item__title">Анастасия Берова</h4>
+              <p class="reviews-item__text">З TopWine я тепер значно швидше обираю вино у магазині.</p>
+              <div class='lines'>
+                <div class="line line-top"></div>
+                <div class="line line-right"></div>
+                <div class="line line-left"></div>
+                <div class="line line-bottom"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="container">
+        </div>
+      </div>
+    </section> 
+
+  </main>
+
+   <footer class="footer">
+    <div class="container">
+      <div class="footer__box">
+        <h4 class="footer__title">2018 TopWine</h4>
+      </div>
+      <div class="footer__top">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Головна</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Перевірка якості</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Каталог вин</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Акції</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <a class="footer__bottom-tel" href="tel:0507888888">050 788 88 88</a>
+        <a class="footer__bottom-tel" href="tel:0677888888">067 788 88 88</a>
+        <a class="footer__bottom-mail" href="mailto:support@topwine.ua">support@topwine.ua</a>
+        <div class="footer__bottom-social">
+          <a class="footer__bottom-social-link" href="#">
+            <img class="footer__bottom-social-img" src="images/icons/youtube-icon.png" alt="youtube icon">
+          </a>
+          <a class="footer__bottom-social-link" href="#">
+            <img class="footer__bottom-social-img" src="images/icons/facebook-white.png" alt="facebook icon">
+          </a>
+          <a class="footer__bottom-social-link" href="#">
+            <img class="footer__bottom-social-img" src="images/icons/instagram-icon.png" alt="instagram icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

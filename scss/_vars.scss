@@ -1,0 +1,38 @@
+$main: #80021e;
+$default: #f7f7f7;
+$border: #e8e8e8;
+
+
+%Roboto-300 {
+  font-family: 'Roboto-Light';
+  font-weight: 300;
+}
+
+%Roboto-500 {
+  font-family: 'Roboto-Medium';
+  font-weight: 500;
+}
+
+%Roboto-700 {
+  font-family: 'Roboto-Bold';
+  font-weight: 700;
+}
+
+%btn {
+  @extend %Roboto-700;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 16px 50px;
+  background-color: $main;
+  color: #fff;
+  cursor: pointer;
+}
+
+%btn-white {
+  background-color: #fff;
+  color: $main;
+  border: 2px solid $main;
+  padding: 14px 48px;
+  margin-left: 20px;
+}
+
